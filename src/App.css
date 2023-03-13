@@ -1,38 +1,108 @@
-.App {
+@font-face {
+  font-family: 'Baguede Free';
+  src: url('./Font/BaguedeFree-Regular.eot');
+  src: url('./Font/BaguedeFree-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./Font/BaguedeFree-Regular.woff2') format('woff2'),
+      url('./Font/BaguedeFree-Regular.woff') format('woff'),
+      url('./Font/BaguedeFree-Regular.ttf') format('truetype'),
+      url('./Font/BaguedeFree-Regular.svg#BaguedeFree-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bw Modelica Med';
+  src: url('./Font/BwModelica-Medium.eot');
+  src: url('./Font/BwModelica-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./Font/BwModelica-Medium.woff2') format('woff2'),
+      url('./Font/BwModelica-Medium.woff') format('woff'),
+      url('./Font/BwModelica-Medium.ttf') format('truetype'),
+      url('./Font/BwModelica-Medium.svg#BwModelica-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Bw Modelica';
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site_button{
+  padding: 1.6rem 4.9rem;
+  background: #919A57;
+  color: #fff;
+  font-size: 2rem;
   text-align: center;
+  cursor: pointer;
+  border: none;
+  font-weight: normal;
+  font-family: 'Baguede';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(min-width: 1920px) {
+  .container {
+    max-width: 1730px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ @media(min-width: 1366px){
+  /* html {
+    font-size: 31%;
+  }
+
+  .container {
+    max-width: 1170px;
+  } */
+} 
+
+@media(min-width: 1200px) {
+ 
+
 }
 
-.App-link {
-  color: #61dafb;
+@media(min-width: 992px) and (max-width: 1199.98px) {
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 991.98px) {
+  
+}
+
+@media (max-width: 767.98px) {
+
+}
+
+@media (max-width: 575.98px) {
+
+
 }

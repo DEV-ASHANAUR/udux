@@ -1,0 +1,41 @@
+.nav__area{
+    background-color: #000000;
+}
+.nav__wrapper{
+    align-items: center;
+}
+.nav__logo img{
+    width: 9.8rem;
+    padding: 4.3rem 0;
+}
+.nav__menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.nav__menu ul li{
+    list-style: none;
+    margin-right: 8.4rem;
+}
+.nav__menu ul li:last-child{
+    margin-right: 0;
+}
+.nav__menu ul li a{
+    font-size: 2.8rem;
+    color: #FFF4E9;
+    font-weight: normal;
+    font-family: 'Baguede';
+}
+.nav__right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav__shopping__cart{
+    margin-right: 7.73rem;
+}
+.nav__shopping__cart img{
+    width: 3.3rem;
+}
