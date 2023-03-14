@@ -6,6 +6,7 @@
     position: relative;
     z-index: 1;
     background-color: #000000;
+    padding: 8rem;
 }
 .hero__area::after {
     position: absolute;
@@ -50,33 +51,38 @@
     padding: 2rem 0;
     position: relative;
   }
-  
+  .swiper-wrapper{
+    align-items: center;
+  }
   .swiper-slide {
-    width: 37rem;
-    height: 42rem;
     position: relative;
+    overflow: hidden;
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%);
+    height: 35.8rem !important;
+    transition: 0.3s;
   }
-  
-  @media (max-width: 500px) {
-    .swiper_container {
-      height: 47rem;
-    }
-    .swiper-slide {
-      width: 28rem !important;
-      height: 36rem !important;
-    }
-    .swiper-slide img {
-      width: 28rem !important;
-      height: 36rem !important;
-    }
-  }
-  
-  .swiper-slide img {
-    width: 100%;
-    height: auto;
-    border-radius: 2rem;
+  .swiper-slide img{
+    height: 100%;
     object-fit: cover;
+    width: 100%;
   }
+  .swiper-slide.swiper-slide-prev{
+    clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%);
+  }
+  .swiper-slide.swiper-slide-prev,
+  .swiper-slide.swiper-slide-next{
+    height: 44rem !important;
+  }
+  .swiper-slide.swiper-slide-active{
+    clip-path: none;
+    transform: scaleX(1.08) !important;
+    height: 48rem !important;
+  }
+  .swiper-slide.swiper-slide-active ~ .swiper-slide{
+    clip-path: polygon(0 0, 100% 6%, 100% 94%, 0 100%);
+  }
+  
+
   
   .swiper-slide-shadow-left,
   .swiper-slide-shadow-right {

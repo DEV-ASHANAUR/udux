@@ -46,7 +46,7 @@ const Stream = () => {
                 {/* filter section */}
                 <div className="row stream_passes_desc_filter">
                     <div className="col-lg-7 stream_desc">
-                        <p>We have stream passes that work for your location,pocket weight and your content needs. <br /> Our stream passes our valid based on our distribution rights for that live stream.</p>
+                        <p>We have stream passes that work for your location,pocket weight and your content needs. Our stream passes our valid based on our distribution rights for that live stream.</p>
                     </div>
                     <div className="col-lg-5">
                         <div className="stream_filters">

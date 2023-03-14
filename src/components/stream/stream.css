@@ -32,11 +32,13 @@
     color: #fff;
     font-weight: 400;
 }
-.stream_filters{
+.stream_filters {
     display: flex;
-    padding: 1.8rem 3.2rem;
+    padding: 1.8rem 1.6rem;
     justify-content: space-between;
     border: 0.025rem solid #707070;
+    max-width: 58rem;
+    margin-left: auto;
 }
 .stream_filters button {
     font-size: 1.7rem;
@@ -45,14 +47,13 @@
     font-weight: 400;
     background: transparent;
     border: none;
-    padding: 1.8rem 3.2rem;
-    margin-right: 3.2rem;
+    padding: 1.5rem 2.5rem 1.3rem;
     display: flex;
     flex-shrink: 0;
 }
-.stream_filters button:last-child{
+/* .stream_filters button:last-child{
     margin-right: 0rem;
-}
+} */
 .stream_filters button.active{
     background-color: #919A57;
 }
