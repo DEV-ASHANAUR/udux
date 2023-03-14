@@ -1,0 +1,74 @@
+.partner__area{
+    background-image: url('../../assets/hero/hero-bg.png');
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    background-color: #000000;
+}
+
+.partner__area::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000000;
+    opacity: 0.91;
+    z-index: -1;
+}
+
+.partner__heading {
+    font-size: 5.4rem;
+    font-family: 'Baguede Free';
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 4.2rem;
+    padding-top: 10rem;
+}
+
+.partner__logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7.1rem;
+}
+.partner__logo img{
+    margin-right: 3.7rem;
+}
+.partner__desc__wrapper{
+    max-width: 60.3rem;
+}
+.partner__desc{
+    font-size: 2.2rem;
+    color: #fff;
+    margin-bottom: 4rem;
+    font-weight: 400;
+}
+
+.patner__cover__wrapper{
+    padding-top:8.8rem;
+    margin-bottom: 10.7rem;
+    max-width: 90.9rem;
+    width: 100%;
+    position: relative;
+}
+.patner__cover__wrapper::after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 1.5rem;
+    background-color: #FFD573;
+    bottom: -1.5rem;
+    right: 0;
+}
+.patner__cover__wrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+.blank{
+    width: 100%;
+    height: 23.6rem;
+    background-color: #DE703D;
+}
