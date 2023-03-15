@@ -8,7 +8,7 @@ const Partner = () => {
         <div className='partner__area'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6">
                         <h1 className='partner__heading'>Brought to you by</h1>
                         <div className="partner__logo">
                             <img src={patLogo1} alt="patner" />
@@ -25,7 +25,7 @@ const Partner = () => {
                         </div>
 
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6">
                         <div className="patner__cover__wrapper">
                             <img src={coverImg} alt="patner_cover" />
                         </div>

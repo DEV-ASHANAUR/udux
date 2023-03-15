@@ -34,8 +34,9 @@
     align-items: center;
     margin-bottom: 7.1rem;
 }
-.partner__logo img{
+.partner__logo img {
     margin-right: 3.7rem;
+    width: 6.6rem;
 }
 .partner__desc__wrapper{
     max-width: 60.3rem;

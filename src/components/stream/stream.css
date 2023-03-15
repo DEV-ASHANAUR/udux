@@ -1,8 +1,9 @@
-.stream_area{
+.stream_area {
     background-color: #000000;
-    padding-top:3rem;
+    padding-top: 3rem;
     padding-bottom: 13rem;
 }
+
 .stream__heading h1 {
     font-size: 5.4rem;
     font-weight: 400;
@@ -10,6 +11,7 @@
     color: #FFFFFF;
     position: relative;
 }
+
 .stream__heading h1::after {
     position: absolute;
     content: "";
@@ -20,18 +22,21 @@
     top: 0 rem;
     bottom: -2.5rem;
 }
-.stream_passes_desc_filter{
+
+.stream_passes_desc_filter {
     margin-top: 7.25rem;
     margin-bottom: 7.9rem;
     /* display: flex;
     justify-content: space-between; */
 }
-.stream_desc p{
+
+.stream_desc p {
     font-size: 2.4rem;
     /* max-width: 101.6rem; */
     color: #fff;
     font-weight: 400;
 }
+
 .stream_filters {
     display: flex;
     padding: 1.8rem 1.6rem;
@@ -40,6 +45,7 @@
     max-width: 58rem;
     margin-left: auto;
 }
+
 .stream_filters button {
     font-size: 1.7rem;
     color: #fff;
@@ -51,15 +57,16 @@
     display: flex;
     flex-shrink: 0;
 }
+
 /* .stream_filters button:last-child{
     margin-right: 0rem;
 } */
-.stream_filters button.active{
+.stream_filters button.active {
     background-color: #919A57;
 }
 
 /* card section */
-.stream__card__wrapper{
+.stream__card__wrapper {
     width: 100%;
 }
 
@@ -69,18 +76,20 @@
     background-position: center center;
     background-size: cover;
 }
+
 .stream__card__img {
     border: 1.8rem solid #000000;
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
 }
+
 .stream__card__img img {
     width: 100%;
     object-fit: cover;
 }
 
-.stream__card__body{
+.stream__card__body {
     padding-top: 2.8rem;
     padding-bottom: 4.4rem;
     padding-left: 2.2rem;
@@ -88,9 +97,11 @@
     display: flex;
     justify-content: space-between;
 }
-.body__one{
+
+.body__one {
     background-color: #2B5746;
 }
+
 .card__body__title {
     color: #fff;
     font-family: "Baguede Free";
@@ -98,12 +109,14 @@
     font-size: 2.3rem;
     padding-bottom: 1.4rem;
 }
-.card__body__date{
+
+.card__body__date {
     color: #fff;
     /* font-family: "Baguede"; */
     font-weight: 400;
     font-size: 1.8rem;
 }
+
 .card__body__time {
     color: #fff;
     font-family: "Baguede Free";
@@ -111,15 +124,17 @@
     font-size: 2.3rem;
     padding-top: 1.4rem;
 }
-.stream__card__icon{
+
+.stream__card__icon {
     display: flex;
     justify-content: end;
 }
-.stream__card__icon img{
+
+.stream__card__icon img {
     width: 3rem;
 }
 
-.stream_btn{
+.stream_btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,37 +150,44 @@
 }
 
 
-.stream__card>div:nth-child(4n+1) .stream__card__wrapper .stream__card__body{
+.stream__card>div:nth-child(4n+1) .stream__card__wrapper .stream__card__body {
     background-color: #2B5746;
 }
 
-.stream__card>div:nth-child(4n+1) .stream__card__wrapper .stream__card__footer .stream_btn{
+.stream__card>div:nth-child(4n+1) .stream__card__wrapper .stream__card__footer .stream_btn {
     background-color: #2B5746;
 }
-.stream__card>div:nth-child(4n+2) .stream__card__wrapper .stream__card__body{
+
+.stream__card>div:nth-child(4n+2) .stream__card__wrapper .stream__card__body {
     background-color: #D36727;
 }
 
-.stream__card>div:nth-child(4n+2) .stream__card__wrapper .stream__card__footer .stream_btn{
+.stream__card>div:nth-child(4n+2) .stream__card__wrapper .stream__card__footer .stream_btn {
     background-color: #D36727;
 }
 
-.stream__card>div:nth-child(4n+3) .stream__card__wrapper .stream__card__body{
+.stream__card>div:nth-child(4n+3) .stream__card__wrapper .stream__card__body {
     background-color: #F2AC2A;
 }
 
-.stream__card>div:nth-child(4n+3) .stream__card__wrapper .stream__card__footer .stream_btn{
+.stream__card>div:nth-child(4n+3) .stream__card__wrapper .stream__card__footer .stream_btn {
     background-color: #F2AC2A;
 }
 
-.stream__card>div:nth-child(4n+4) .stream__card__wrapper .stream__card__body{
+.stream__card>div:nth-child(4n+4) .stream__card__wrapper .stream__card__body {
     background-color: #2B5746;
 }
 
-.stream__card>div:nth-child(4n+4) .stream__card__wrapper .stream__card__footer .stream_btn{
+.stream__card>div:nth-child(4n+4) .stream__card__wrapper .stream__card__footer .stream_btn {
     background-color: #2B5746;
 }
 
-.stream_btn:hover{
-    background: #000000!important;
+.stream_btn:hover {
+    background: #000000 !important;
+}
+
+@media (max-width: 767.98px) {
+    .stream_filters {
+        margin: 0 auto;
+    }
 }

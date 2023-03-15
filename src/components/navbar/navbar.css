@@ -39,3 +39,73 @@
 .nav__shopping__cart img{
     width: 3.3rem;
 }
+
+.trigger__icon {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile__menu{
+    display: none;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .menu__item__wrapper{
+        display: none;
+    }
+    .nav__sign .site_button{
+        display: none;
+    }
+    .trigger__icon {
+        display: block;
+    }
+
+    .mobile__menu {
+        position: absolute;
+        left: 0;
+        top: 11.8rem;
+        width: 100%;
+        height: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #000000;
+        transition: .3s;
+        visibility: hidden;
+    }
+    .mobile__menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 5rem;
+    }
+    .mobile__menu ul li{
+        list-style: none;
+        margin: 4rem 0;
+    }
+    .mobile__menu ul li a{
+        font-size: 2.8rem;
+        color: #FFF4E9;
+        font-weight: normal;
+        font-family: 'Baguede Free';
+    }
+    .in__mobile{
+        height: 100vh !important;
+        visibility: visible;
+    }
+    .mobile__menu .site_button{
+        margin-top: 4rem;
+    }
+
+
+}

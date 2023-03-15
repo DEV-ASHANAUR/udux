@@ -3,7 +3,7 @@ import React from 'react'
 const StreamItem = ({item}) => {
     const {title,date,time,icon,person,freame} = item;
     return (
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-3 col-sm-6">
             <div className="stream__card__wrapper">
                 <div className="stream__card__top" style={{ backgroundImage: `url(${freame})` }}>
                     <div className="stream__card__img">
