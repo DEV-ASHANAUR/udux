@@ -32,13 +32,31 @@ const Hero = () => {
                 <Swiper
                     centeredSlides={true}
                     loop={true}
-                    slidesPerView={'5'}
+                    slidesPerView={'auto'}
                     spaceBetween={30}
                     pagination={{ el: '.swiper-pagination', clickable: true }}
+                    breakpoints={{
+                        300: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        576: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 4,
+                            spaceBetween: 40,
+                        },
+                        992: {
+                            slidesPerView: 5,
+                            spaceBetween: 50,
+                        },
+                    }}
                     navigation={{
-                      nextEl: '.swiper-button-next',
-                      prevEl: '.swiper-button-prev',
-                      clickable: true,
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                        clickable: true,
                     }}
                     modules={[EffectCoverflow, Pagination, Navigation]}
                     className="swiper_container"

@@ -41,7 +41,7 @@
 }
 
 .trigger__icon {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
@@ -77,8 +77,7 @@
         align-items: center;
         justify-content: flex-start;
         background-color: #000000;
-        transition: .3s;
-        visibility: hidden;
+        transition: all .3s ease;
     }
     .mobile__menu ul {
         display: flex;
@@ -92,6 +91,7 @@
     .mobile__menu ul li{
         list-style: none;
         margin: 4rem 0;
+        visibility: hidden;
     }
     .mobile__menu ul li a{
         font-size: 2.8rem;
@@ -99,13 +99,26 @@
         font-weight: normal;
         font-family: 'Baguede Free';
     }
+    .mobile__menu .site_button{
+        visibility: hidden;
+    }
     .in__mobile{
         height: 100vh !important;
+        visibility: visible;
+    }
+    .in__mobile ul li{
+        visibility: visible;
+    }
+    .in__mobile .site_button{
         visibility: visible;
     }
     .mobile__menu .site_button{
         margin-top: 4rem;
     }
 
-
+    .nav__shopping__cart {
+        margin-right: 5.73rem;
+    }
 }
+
+

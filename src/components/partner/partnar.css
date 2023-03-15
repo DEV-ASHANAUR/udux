@@ -73,3 +73,9 @@
     height: 23.6rem;
     background-color: #DE703D;
 }
+
+@media screen and (max-width:575.98px) {
+    .patner__cover__wrapper {
+        padding-top: 1rem;
+    }
+}
